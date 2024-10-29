@@ -85,7 +85,7 @@ a:hover i::after{
 .maincontainer1{
 display: flex;
 gap: 20px;
-padding-top: 350px;
+padding-top: 100px;
 justify-content: center;
 }
 .maincontainer2{
@@ -96,9 +96,11 @@ justify-content: center;
     padding-bottom: 30px;
     justify-content: center;
     }
+
     h1{
         max-width: 900px;
-        color: white;
+     
+        
     }
     .app{
         font-size: 120px;
@@ -106,14 +108,14 @@ justify-content: center;
         font-weight: 700;
         font-family: sans-serif;
     
-        color:rgb(88, 84, 84);
+        color:green;
 text-align: center;
-        text-shadow: 4px 4px 4px rgb(88, 84, 84);
+        text-shadow: 4px 4px 4px rgb(3, 54, 3);
         letter-spacing: -3PX;
         font-style: italic;
     }
     .maindiv{
-        background-image: url(build.jpg);
+        background-image: linear-gradient(green, blue );
         max-width: 1400px;
         background-size: 1414px 1401px;
         background-repeat: no-repeat;
@@ -121,19 +123,24 @@ text-align: center;
         margin-right: auto;
         margin-left: auto;
     }
+    .dw{
+      
+        color: rgb(28, 94, 121);
+        text-shadow: 1px 1px 1px rgb(52, 121, 148);
+    }
     .txt1{
         margin-top: 100px;
         max-width: 450px;
         text-align: left;
         font-size: 26px;
         font-family: sans-serif;
-        color:rgb(49, 46, 46);
+        color:rgb(6, 150, 66);
         font-weight: 300;
-        text-shadow: 1px 1px 1px rgb(88, 84, 84);
-        border: 2px solid rgb(88, 84, 84);
+        text-shadow: 1px 1px 1px rgb(22, 185, 90);
+       box-shadow: 0px 0px 40px ;
         padding: 20px;
 font-style: italic;
-        box-shadow:2px 3px 5px  14px rgb(88, 84, 84);
+        
     }
     
     .maintext{
@@ -142,4 +149,71 @@ font-style: italic;
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+    .btn1{
+        max-width: 211px;
+        width: 100%;
+         border-radius: 100px;
+         font-family: sans-serif;
+         font-weight: 200;
+        padding: 20px;
+        font-size: 25px;
+        border: none;
+        color: blue;
+        letter-spacing: 2px;
+        background-image: linear-gradient(rgb(31, 165, 31), rgb(58, 58, 158) );
+    
+    }
+    .main1{
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .main11{
+        max-width: 660px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .main2{
+max-width: 1280px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
+    }
+    .maincon2{
+        background-image: linear-gradient( yellow  #212f3d);
+        max-width: 1340px;
+        width: 1000%;
+        margin-left:auto;
+        margin-right: auto;
+        min-height: 500px;
+    }
+    .snap{
+        color: rgb(167, 167, 9);
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 90px;
+        padding-top: 70px;
+    }
+    .txt11{
+        margin-top: 100px;
+        max-width: 450px;
+        text-align: left;
+        font-size: 26px;
+        font-family: sans-serif;
+        color:rgb(212, 212, 59);
+        font-weight: 300;
+        text-shadow: 1px 1px 1px yellow;
+       box-shadow: 0px 0px 40px ;
+        padding: 20px;
+font-style: italic;
+        
+    }
+    .snpimg{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
